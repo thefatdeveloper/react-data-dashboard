@@ -14,3 +14,23 @@ export interface WeatherState {
 }
 
   
+export interface Option {
+  label: string;
+  value: string;
+}
+
+export interface Item {
+  id: string;
+  name: string;
+  // Extend with other fields as necessary
+}
+
+
+// /src/types/index.ts
+
+// Update to match the structure of Rick and Morty characters
+export interface Character {
+  id: string;
+  name: string;
+  image: string; // URL to the character's image
+}
